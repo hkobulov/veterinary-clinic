@@ -1,17 +1,190 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.min.css">
-    <title>Home page</title>
-</head>
-<body>
-    <header class="header">
-        <div class="container">
-            <div class="header-top">
-                <div class="header-top-info">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/main.min.css">
+        <title>Home page</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header-top">
+                    <div class="header-top-info">
+                        <address class="header-top__address">
+                            г. Мариуполь, проспект Победы, 48а
+                        </address>
+                        
+                        <ul class="header-top__list-tel">
+                            <li class="header-top__item-tel">
+                                <a class="header-top__tel" href="tel:+0676347574">
+                                    (067) 634 -75 - 74
+                                </a>
+                            </li>
+                            
+                            <li class="header-top__item-tel">
+                                <a class="header-top__tel" href="tel:+0637570131">
+                                    (0637) 57 - 01 - 31
+                                </a>
+                            </li>
+                            
+                            <li class="header-top__item-tel">
+                                <a class="header-top__tel" href="tel:+0982664389">
+                                    (098) 266 - 43 - 89
+                                </a>
+                            </li>
+                        </ul>
+                        
+                        <ul class="header-top__list-time">
+                            <li class="header-top__item-time">
+                                <time class="header-top__time">
+                                    <span class="header-top__time-day">Пн - Пт</span> 8:00 - 18:00
+                                </time>
+                            </li>
+                            
+                            <li class="header-top__item-time">
+                                <time class="header-top__time">
+                                    <span class="header-top__time-day">Сб - Вс</span> 8:00 - 14:00
+                                </time>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="header-bottom">
+                    <div class="header-bottom-info">
+                        <a class="header__link" href="./index.html">
+                            <img class="header__img" src="./images/logo.svg" alt="Logo of site" width="178" height="86">
+                        </a>
+
+                        <ul class="header-bottom__list">
+                            <li class="header-bottom__item header-bottom--acive">
+                                <a class="header-bottom__link" href="./index.html">
+                                    Главная
+                                </a>
+                            </li>
+
+                            <li class="header-bottom__item">
+                                <a class="header-bottom__link" href="./about_company.html">
+                                    О Клинике
+                                </a>
+                            </li>
+
+                            <li class="header-bottom__item">
+                                <a class="header-bottom__link" href="./services.html">
+                                    Наши Услуги
+                                </a>
+                            </li>
+
+                            <li class="header-bottom__item">
+                                <a class="header-bottom__link" href="./blog.html">
+                                    Полезные Статьи
+                                </a>
+                            </li>
+
+                            <li class="header-bottom__item">
+                                <a class="header-bottom__link" href="./faq.html">
+                                    FAQ
+                                </a>
+                            </li>
+
+                            <li class="header-bottom__item">
+                                <a class="header-bottom__link" href="./contac.html">
+                                    Контакты
+                                </a>
+                            </li>
+                        </ul>
+
+                        <a class="header-bottom__link-q" href="">
+                            Задать вопрос
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="work">
+                <div class="container">
+                    <div class="work-info">
+                        <h1 class="work-info__heading main-heading">
+                            Мы заботимся о<span class="work-info__heading-edit"> ваших питомцах!</span> 
+                        </h1>
+
+                        <p class="work-info__desc main-desc">
+                            Вам и Вашему любимцу множество услуг по диагностике, профилактике заболеваний по лечению и уходу за Вашими животными. Профессионалы работающие в нашей клинике сделают все для того, чтобы быстро, эффективно и максимально безболезненно выполнить любие процедуры, которые необходимы Вашему домашнему любимцу.
+                        </p>
+
+                        <a class="work-info__link main-link" href="./services.html">
+                            Наши услуги
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-top">
+                    <a class="header__link" href="./index.html">
+                        <img class="header__img" src="./images/logo.svg" alt="Logo of site" width="178" height="86">
+                    </a>
+    
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a class="footer__link" href="./index.html">
+                                Главная
+                            </a>
+                        </li>
+    
+                        <li class="footer__item">
+                            <a class="footer__link" href="./about_company.html">
+                                О Клинике
+                            </a>
+                        </li>
+    
+                        <li class="footer__item">
+                            <a class="footer__link" href="./services.html">
+                                Наши Услуги
+                            </a>
+                        </li>
+                    </ul>
+    
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a class="footer__link" href="./blog.html">
+                                Полезные Статьи
+                            </a>
+                        </li>
+    
+                        <li class="footer__item">
+                            <a class="footer__link" href="./faq.html">
+                                FAQ
+                            </a>
+                        </li>
+    
+                        <li class="footer__item">
+                            <a class="footer__link" href="./contac.html">
+                                Контакты
+                            </a>
+                        </li>
+                    </ul>
+    
+                    <ul class="header-top__list-time">
+                        <li class="header-top__item-time">
+                            <time class="header-top__time">
+                                <span class="header-top__time-day">Пн - Пт</span> 8:00 - 18:00
+                            </time>
+                        </li>
+                        
+                        <li class="header-top__item-time">
+                            <time class="header-top__time">
+                                <span class="header-top__time-day">Сб - Вс</span> 8:00 - 14:00
+                            </time>
+                        </li>
+                    </ul>
+    
                     <address class="header-top__address">
                         г. Мариуполь, проспект Победы, 48а
                     </address>
@@ -35,73 +208,14 @@
                             </a>
                         </li>
                     </ul>
-                    
-                    <ul class="header-top__list-time">
-                        <li class="header-top__item-time">
-                            <time class="header-top__time" datetime="08:00 - 18:00">
-                                <span class="header-top__time-day">Пн - Пт</span> 8:00 - 18:00
-                            </time>
-                        </li>
-                        
-                        <li class="header-top__item-time">
-                            <time class="header-top__time" datetime="08:00 - 14:00">
-                                <span class="header-top__time-day">Сб - Вс</span> 8:00 - 14:00
-                            </time>
-                        </li>
-                    </ul>
+                </div>
+                
+                <div class="footer-bottom">
+                    <p class="footer__author">
+                        © 2020 example. All Rights Reserved.
+                    </p>
                 </div>
             </div>
-            
-            <div class="header-bottom">
-                <div class="header-bottom-info">
-                    <a class="header__link" href="./index.html">
-                        <img class="header__img" src="./images/logo.svg" alt="Logo of site" width="178" height="86">
-                    </a>
-
-                    <ul class="header-bottom__list">
-                        <li class="header-bottom__item header-bottom--acive">
-                            <a class="header-bottom__link" href="./index.html">
-                                Главная
-                            </a>
-                        </li>
-
-                        <li class="header-bottom__item">
-                            <a class="header-bottom__link" href="./about_company.html">
-                                О Клинике
-                            </a>
-                        </li>
-
-                        <li class="header-bottom__item">
-                            <a class="header-bottom__link" href="./services.html">
-                                Наши Услуги
-                            </a>
-                        </li>
-
-                        <li class="header-bottom__item">
-                            <a class="header-bottom__link" href="./blog.html">
-                                Полезные Статьи
-                            </a>
-                        </li>
-
-                        <li class="header-bottom__item">
-                            <a class="header-bottom__link" href="./faq.html">
-                                FAQ
-                            </a>
-                        </li>
-
-                        <li class="header-bottom__item">
-                            <a class="header-bottom__link" href="./contac.html">
-                                Контакты
-                            </a>
-                        </li>
-                    </ul>
-
-                    <a class="header-bottom__link-q" href="">
-                        Задать вопрос
-                    </a>
-                </div>
-            </div>
-        </div>
-    </header>
-</body>
-</html>
+        </footer>
+    </body>
+    </html>
