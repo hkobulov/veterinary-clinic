@@ -10,6 +10,8 @@ html {
 }
 
 body {
+    background-image: url(../img/body-bg.png);
+    background-size: cover;
     margin: 0;
     padding: 0;
     display: flex;
@@ -19,6 +21,19 @@ body {
     font-size: 16px;
     line-height: 1.2;
     font-weight: 400;
+    background-color: $light-grey;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+
+    body {
+        background-image: url(../img/body-bg@2x.png);
+    }
+
 }
 
 main {
