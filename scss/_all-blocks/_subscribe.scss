@@ -1,0 +1,40 @@
+
+.subscribe .container {
+    position: relative;
+    padding: 0;
+    background-image: url("../images/subscribe-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.subscribe-info {
+    padding: 170px 555px 145px 287px;
+}
+
+.subscribe-info__heading {
+    margin-bottom: 32px;
+    font-size: 48px;
+    color: #fff;
+}
+
+.subscribe-form {
+    display: flex;
+}
+
+.subscribe-form__mail {
+    width: 335px;
+    margin-right: 21px;
+    padding: 18px 22px;
+    background-color: #fff;
+    border: solid 1px #fff;
+    border-radius: 5px;
+}
+
+.subscribe-form__btn {
+    padding: 15px 50px;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    background-color: $black;
+}
