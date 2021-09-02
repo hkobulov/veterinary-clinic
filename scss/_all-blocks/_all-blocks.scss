@@ -1,12 +1,10 @@
 @import "container";
 @import "header";
-@import "services-hero";
-@import "services-intro";
 @import "footer";
 
 
 // Index page
-
+@import "work";
 
 // Contact
 
@@ -15,13 +13,14 @@
 
 
 // Services
-
+@import "services-hero";
+@import "services-intro";
 
 // Services open
 
 
 // Blog
-@import "blog.scss";
+@import "blog";
 @import "blog-post";
 
 // About company
