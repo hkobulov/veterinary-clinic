@@ -1,0 +1,73 @@
+.about {
+    padding: 20px 0;
+}
+
+.about-info {
+    position: relative;
+    margin-bottom: 35px;
+    padding: 43px 289px 35px 358px;
+}
+
+.about-info::before {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    content: "";
+    display: block;
+    width: 140px;
+    height: 1px;
+    background-color: $grey;
+    transform: translateX(-50%);
+}
+
+.about-info::after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    content: "";
+    display: block;
+    width: 140px;
+    height: 1px;
+    background-color: $grey;
+    transform: translateX(-50%);
+}
+
+.about-info__desc {
+    position: relative;
+    font-size: 20px;
+    color: $grey;
+    text-align: center;
+}
+
+.about-info__desc::before {
+    position: absolute;
+    bottom: 80%;
+    left: -80px;
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-image: url("../images/qushtirnoq.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.about-info__desc::after {
+    position: absolute;
+    top: 50%;
+    right: -80px;
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-image: url("../images/qushtirnoq.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(180deg);
+}
+
+.about__desc {
+    font-size: 20px;
+    color: $black;
+    text-align: center;
+}

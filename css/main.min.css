@@ -638,9 +638,133 @@ img {
 }
 
 .work .container {
-  padding: 153px 97px 300px 735px;
+  padding: 153px 97px 400px 710px;
   background-image: url("../images/work_bg.png");
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-heading {
+  margin: 0;
+  padding: 0;
+  font-size: 64px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.work-info__heading {
+  max-width: 608px;
+  margin-bottom: 29px;
+  font-size: 70px;
+  line-height: 64px;
+  color: #333;
+}
+
+.work-info__heading-edit {
+  display: block;
+  white-space: nowrap;
+  color: #78C0DE;
+}
+
+.main-desc {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.work-info__desc {
+  margin-bottom: 38px;
+  color: #949494;
+}
+
+.main-link {
+  padding: 15px 45px;
+  font-size: 16px;
+  text-decoration: none;
+  background-color: #333;
+  border-radius: 3px;
+}
+
+.work-info__link {
+  color: #fff;
+}
+
+.about {
+  padding: 20px 0;
+}
+
+.about-info {
+  position: relative;
+  margin-bottom: 35px;
+  padding: 43px 289px 35px 358px;
+}
+
+.about-info::before {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  content: "";
+  display: block;
+  width: 140px;
+  height: 1px;
+  background-color: #949494;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.about-info::after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  content: "";
+  display: block;
+  width: 140px;
+  height: 1px;
+  background-color: #949494;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.about-info__desc {
+  position: relative;
+  font-size: 20px;
+  color: #949494;
+  text-align: center;
+}
+
+.about-info__desc::before {
+  position: absolute;
+  bottom: 80%;
+  left: -80px;
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-image: url("../images/qushtirnoq.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.about-info__desc::after {
+  position: absolute;
+  top: 50%;
+  right: -80px;
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-image: url("../images/qushtirnoq.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.about__desc {
+  font-size: 20px;
+  color: #333;
+  text-align: center;
 }
 
 /* SERVICES */
