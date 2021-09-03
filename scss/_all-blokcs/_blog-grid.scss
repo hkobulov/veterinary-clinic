@@ -27,6 +27,42 @@
     height: 180px;
     display: block;
 }
+.blog-grid__img__whitedog {
+  background-image: url(../img/blog-grid-dog-white.png);
+  width: 305px;
+  height: 180px;
+  display: block;
+}
+.blog-grid__img__twodog {
+  background-image: url(../img/blog-grid-dog-two.png);
+  width: 305px;
+  height: 180px;
+  display: block;
+}
+.blog-grid__img__cat__white {
+  background-image: url(../img/blog-grid-cat-wihte.png);
+  width: 305px;
+  height: 180px;
+  display: block;
+}
+.blog-grid__img__maus {
+  background-image: url(../img/blog-grid-maus.png);
+  width: 305px;
+  height: 180px;
+  display: block;
+}
+.blog-grid__img__dog__black {
+  background-image: url(../img/blog-grid-dog-black.png);
+  width: 305px;
+  height: 180px;
+  display: block;
+}
+.blog-grid__img__dog__choco {
+  background-image: url(../img/blog-grid-dog-choco.png);
+  width: 305px;
+  height: 180px;
+  display: block;
+}
 .blog-grid__content {
   padding: 21px 30px 37px 30px;
 
@@ -44,7 +80,7 @@
   font-weight: bold;
   font-size: 22px;
   line-height: 25px;
-  width: 182px;
+  width: 220px;
 }
 .blog-grid__text {
   margin-top: 0;
