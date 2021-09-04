@@ -1,6 +1,8 @@
-
 .blog-post {
   display: flex;
+  background-color: $white;
+  border: 1px solid #F3F3F3;
+  border-radius: 5px;
 }
 
 .blog-post-content {
@@ -63,10 +65,15 @@
 
   &::before {
     content: "";
-    background-image: url(../img/pet-hand-icon.png);
+    background-image: url(../images/pet-hand-icon.png);
     background-size: contain;
     display: block;
     width: 23px;
     height: 20px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .hero-blog {
+    flex-direction: column;
   }
 }
