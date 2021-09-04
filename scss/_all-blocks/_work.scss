@@ -1,6 +1,52 @@
 .work .container {
-    padding: 153px 97px 300px 735px;
+    padding: 153px 97px 400px 710px;
     background-image: url("../images/work_bg.png");
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
+.main-heading {
+    margin: 0;
+    padding: 0;
+    font-size: 64px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.work-info__heading {
+    max-width: 608px;
+    margin-bottom: 29px;
+    font-size: 70px;
+    line-height: 64px;
+    color: $black;
+}
+
+.work-info__heading-edit {
+    display: block;
+    white-space: nowrap;
+    color: #78C0DE;
+}
+
+.main-desc {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.work-info__desc {
+    margin-bottom: 38px;
+    color: $grey;
+}
+
+.main-link {
+    padding: 15px 45px;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: $black;
+    border-radius: 3px;
+}
+
+.work-info__link {
+    color: #fff;
+}
