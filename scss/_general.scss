@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background-image: url(../img/body-bg.png);
+    background-image: url(../images/body-bg.png);
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -31,7 +31,7 @@ only screen and (min-resolution: 192dpi),
 only screen and (min-resolution: 2dppx) {
 
     body {
-        background-image: url(../img/body-bg@2x.png);
+        background-image: url(../images/body-bg@2x.png);
     }
 
 }
