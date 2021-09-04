@@ -1,6 +1,11 @@
-var elHamburgerBtn = document.querySelector('.service-list__item__heading');
-var elHeader = document.querySelector('.service-list__item');
+var elOpenModalButton = document.querySelector('.js-modal-open');
+var elModal = document.querySelector('.js-modal');
+var closeButton = document.querySelector('.exit-button');
 
-elHamburgerBtn.addEventListener("click", function(){
-    elHeader.classList.toggle("service--open");
-})
+elOpenModalButton.addEventListener('click', function ()  {
+    elModal.classList.add('modal-open')
+});
+
+closeButton.addEventListener('click', function(){
+    elModal.classList.remove('modal-open')
+});
