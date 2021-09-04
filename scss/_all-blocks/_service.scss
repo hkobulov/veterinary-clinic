@@ -1,0 +1,270 @@
+.service {
+    padding: 191px 0 127px 0;
+}
+
+
+.service__heading {
+    margin-bottom: 80px;
+    font-size: 48px;
+    color: $black;
+    text-align: center;
+}
+
+.service-list {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.service-list__item {
+    display: block;
+    margin: 0;
+    height: 200px;
+    padding: 30px;
+    padding-bottom: 40px;
+    background-color: #fff;
+}
+
+.service-list__item + .service-list__item {
+    margin-left: 12px;
+}
+
+.service-list__item__heading {
+    font-size: 18px;
+    color: $black;
+    text-decoration: none;
+}
+
+.service-list__item:nth-child(1)::before {
+    content: "";
+    display: block;
+    width: 54px;
+    height: 77px;
+    margin: 0 auto;
+    margin-bottom: 22px;
+    background-image: url("../images/service-doctor.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.service-list__item:nth-child(2)::before {
+    content: "";
+    display: block;
+    width: 61px;
+    height: 77px;
+    margin: 0 auto;
+    margin-bottom: 22px;
+    background-image: url("../images/service-doctor-f.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.service-list__item:nth-child(3)::before {
+    content: "";
+    display: block;
+    width: 72px;
+    height: 77px;
+    margin: 0 auto;
+    margin-bottom: 22px;
+    background-image: url("../images/service-ill-dog.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.service-list__item:nth-child(4)::before {
+    content: "";
+    display: block;
+    width: 76px;
+    height: 76px;
+    margin: 0 auto;
+    margin-bottom: 22px;
+    background-image: url("../images/service-dog.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.service-list__item:nth-child(5)::before {
+    content: "";
+    display: block;
+    width: 78px;
+    height: 78px;
+    margin: 0 auto;
+    margin-bottom: 22px;
+    background-image: url("../images/service-microscope.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.service-list__item:nth-child(6)::before {
+    content: "";
+    display: block;
+    width: 76px;
+    height: 76px;
+    margin: 0 auto;
+    margin-bottom: 22px;
+    background-image: url("../images/service-plus-dog.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.service-list__item:nth-child(7)::before {
+    content: "";
+    display: block;
+    width: 77px;
+    height: 77px;
+    margin: 0 auto;
+    margin-bottom: 22px;
+    background-image: url("../images/service-uzi.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.service-list__item:nth-child(8)::before {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 78px;
+    margin: 0 auto;
+    margin-bottom: 22px;
+    background-image: url("../images/service-chipirovanie.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.service-list__item:nth-child(9)::before {
+    content: "";
+    display: block;
+    width: 87px;
+    height: 78px;
+    margin: 0 auto;
+    margin-bottom: 22px;
+    background-image: url("../images/service-passport.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.service-list__item:nth-child(10)::before {
+    content: "";
+    display: block;
+    width: 68px;
+    height: 76px;
+    margin: 0 auto;
+    margin-bottom: 22px;
+    background-image: url("../images/service-vaksinasiya.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.service-list__item:nth-child(11)::before {
+    content: "";
+    display: block;
+    width: 78px;
+    height: 78px;
+    margin: 0 auto;
+    margin-bottom: 22px;
+    background-image: url("../images/service-stomatologiya.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.service-list__item:nth-child(12)::before {
+    content: "";
+    display: block;
+    width: 77px;
+    height: 77px;
+    margin: 0 auto;
+    margin-bottom: 22px;
+    background-image: url("../images/service-plus-vizov-na-dom.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+// Service area
+.service-item-area {
+    display: flex;
+    align-items: center;
+    padding: 40px 80px 40px 10px;
+    background-color: #fff;
+}
+
+.service-area__img {
+    margin-right: 40px;
+}
+
+.service-area__heading {
+    margin-bottom: 18px;
+    font-size: 36px;
+    color: $black;
+}
+
+.service-area__desc {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: $grey;
+}
+
+.service-area__desc:nth-child(2n+1) {
+    margin-bottom: 30px;
+}
+
+.service-area__list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.service-area__list__item:nth-child(1) {
+    margin-right: 21px;
+}
+
+.service-area__list__link {
+    display: flex;
+    padding: 14px 35px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: #FFBD54;
+    border-radius: 3px;
+
+    &::before {
+        content: "";
+        width: 21px;
+        height: 21px;
+        display: block;
+        margin-right: 5px;
+        background-image: url("../images/service-list-money.svg");
+    }
+}
+
+.service-area__list__links {
+    display: flex;
+    padding: 14px 35px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: $black;
+    border-radius: 3px;
+    
+    &::before {
+        content: "";
+        width: 21px;
+        height: 21px;
+        display: block;
+        background-image: url("../images/service-list-document.svg");
+    }
+}
+
+// Active
+
+.service-list__item:nth-child(1) {
+    height: 230px;
+}
+
+.service--open .service-list__item {
+    padding-bottom: 60px;
+}

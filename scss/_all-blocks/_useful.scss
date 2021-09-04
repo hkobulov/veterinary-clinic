@@ -1,0 +1,102 @@
+.useful {
+    padding: 151px 0;
+}
+
+.useful__heading {
+    margin-bottom: 80px;
+    font-size: 48px;
+    color: $black;
+    text-align: center;
+}
+
+.useful-list {
+    display: flex;
+    margin: -15;
+    padding: 0;
+    list-style-type: none;
+}
+
+.useful-list__item {
+    margin: 15px;
+    background-color: #FEFEFE;
+    border: 1px solid #E4E4E2;
+    border-radius: 5px;
+    
+}
+
+.useful-list__area {
+    padding: 21px 31px 35px 31px;
+}
+
+.useful-list__area__time {
+    margin-bottom: 2px;
+    font-size: 14px;
+    color: $grey;
+    font-weight: 500;
+    text-align: right;
+}
+
+.useful-list__area__heading {
+    max-width: 193px;
+    margin-bottom: 12px;
+    font-size: 22px;
+    color: $black;
+}
+
+.useful-list__area__desc {
+    margin-bottom: 34px;
+    font-size: 16px;
+    color: $grey;
+}
+
+.useful-list__area__link {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: $black;
+    text-decoration: none;
+}
+
+.useful-list__area__link::before {
+    content: "";
+    display: block;
+    width: 23px;
+    height: 23px;
+    margin-right: 5px;
+    background-image: url("../../images/pet-hand-icon.png");
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+    background-position: center;
+}
+
+.useful-list__item:nth-child(2) {
+    display: flex;
+}
+
+.useful-list__area__time-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.useful-list__area__time:nth-child(2) {
+    margin: 0;
+}
+
+.useful-list__area-list {
+    display: flex;
+    margin: -8;
+    padding: 0;
+    list-style-type: none;
+}
+
+.useful-list__area__item {
+    margin: 8px;
+}
+
+.useful-list__area__links {
+    font-size: 14px;
+    color:  #3D9CEA;
+    text-decoration: none;
+}
