@@ -1,0 +1,102 @@
+.hero-about-company {
+    position: relative;
+    padding: 118px 110px 310px;
+  
+  
+    &::after {
+         content: "";
+         position: absolute;
+         background-size: contain;
+         background-image: url(../images/woman-hero-about-company.png);
+         background-repeat: no-repeat;
+         width: 448px;
+         height: 545px;
+         display: block;
+         right: 110px;
+         top: 30px;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: url(../../images/about-company-herobg.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 670px;
+      height: 235px;
+      bottom: 0;
+      left: -10px;
+    }
+  }
+  
+  .conpany-info {
+    padding-top: 24px;
+  }
+  .conpany-info .container {
+    padding: 0;
+  }
+  
+  
+  .conpany-info__content {
+    display: flex;
+  }
+  
+  .conpany-info__text {
+    padding: 130px 66px 140px;
+    max-width: 560px;
+    margin: 0;
+    color: $grey;
+  .conpany-info__text__orange {
+    color: $orange;
+  }
+  .conpany-info__text__blue {
+    color: $blue;
+  }
+  
+  
+  .conpany-info__text__span {
+    margin-top: 20px;
+  }
+    // &::before {
+    //   content: "";
+    //   // background-image: url(../../images/about-company-info-house.png);
+    //   width: 705px;
+    //   height: 450px;
+    //   display: block;
+    // }
+  }
+  
+  .conpany-feature {
+    padding-top: 20px;
+    padding-bottom: 145px;
+  }
+  .conpany-feature__wrapper {
+    display: flex;
+  }
+  .conpany-feature__content {
+    margin-right: 20px;
+  }
+  
+  .conpany-feature__heading {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 48px;
+    color: $black;
+    width: 420px;
+  
+    & span {
+      color: $orange;
+    }
+  }
+  
+  .conpany-feature__text {
+    width: 343px;
+    color: $grey;
+  }
+  
+  .conpany-feature__img {
+    display: flex;
+  }
+  .conpany-feature__img img:not(:last-child) {
+    margin-right: 20px;
+  }
+  
