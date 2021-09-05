@@ -1702,7 +1702,7 @@ img {
 .faq-info::after {
   position: absolute;
   top: 0;
-  right: calc(50% + -50%);
+  left: 70%;
   content: "";
   display: block;
   width: 569px;
@@ -1744,7 +1744,7 @@ img {
 .faq-list::after {
   position: absolute;
   top: 50%;
-  right: calc(50% + -50%);
+  left: 70%;
   content: "";
   display: block;
   width: 655px;
