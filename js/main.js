@@ -9,3 +9,12 @@ elOpenModalButton.addEventListener('click', function ()  {
 closeButton.addEventListener('click', function(){
     elModal.classList.remove('modal-open')
 });
+
+// FAQ
+
+var elHamburgerBtn = document.querySelector('.faq-list__item__btn');
+var elHeader = document.querySelector('.faq-list__item');
+
+elHamburgerBtn.addEventListener("click", function(){
+    elHeader.classList.toggle("faq--open");
+})

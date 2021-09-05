@@ -1688,6 +1688,171 @@ img {
      object-fit: cover;
 }
 
+.faq {
+  padding-top: 118px;
+  padding-left: 177px;
+  padding-bottom: 63px;
+}
+
+.faq__heading {
+  margin-bottom: 27px;
+  font-size: 70px;
+  color: #333;
+}
+
+.faq__desc {
+  max-width: 445px;
+  margin-bottom: 35px;
+  font-size: 16px;
+  color: #949494;
+}
+
+.faq__btn {
+  margin-bottom: 63px;
+  padding: 15px 38px;
+  color: #fff;
+  background-color: #78C0DE;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.faq-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.faq-list__item {
+  max-width: 750px;
+  padding: 30px 40px 40px 60px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.faq-list__item + .faq-list__item {
+  margin-top: 18px;
+}
+
+.faq-list__item__area {
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.faq-list__item__area-time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 28px;
+  font-size: 17px;
+  color: #333;
+}
+
+.faq-list__item__area-time::before {
+  content: "";
+  width: 23px;
+  height: 20px;
+  display: block;
+  margin-right: 7px;
+  background-image: url("../images/pet-hand-icon.png");
+  background-size: cover;
+  -webkit-transform: rotate(111deg);
+          transform: rotate(111deg);
+}
+
+.faq-list__item__area-link {
+  font-size: 18px;
+  color: #78C0DE;
+  text-decoration: none;
+}
+
+.faq-list__item__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  font-size: 20px;
+  color: #333;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.faq-list__item__btn::after {
+  content: "";
+  display: block;
+  width: 25px;
+  height: 25px;
+  margin-left: auto;
+  background-image: url("../images/service-vector.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.faq-list__item__desc {
+  display: none;
+  margin-top: 23px;
+  color: #949494;
+}
+
+.faq-list__item:nth-child(2n+1) .faq-list__item__area-time::before {
+  content: "";
+  width: 23px;
+  height: 20px;
+  display: block;
+  margin-right: 7px;
+  background-image: url("../images/pet-hand-icon.png");
+  background-size: cover;
+  -webkit-transform: rotate(111deg);
+          transform: rotate(111deg);
+}
+
+.faq-list__item:nth-child(2n) .faq-list__item__area-time::before {
+  content: "";
+  width: 23px;
+  height: 20px;
+  display: block;
+  margin-right: 7px;
+  background-image: url("../images/pet-hand-blue-icon.png");
+  background-size: cover;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.faq-list__item:nth-child(2) .faq-list__item__desc {
+  display: none;
+}
+
+.faq-list__item:nth-child(3) {
+  opacity: 0.5;
+}
+
+.faq-list__item:nth-child(3) .faq-list__item__btn::after {
+  content: "";
+  width: 21px;
+  height: 21px;
+  display: block;
+  margin-right: 7px;
+  background-image: url("../images/faq-clock.svg");
+  background-size: cover;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.faq--open .faq-list__item__desc {
+  display: block;
+}
+
 /* SERVICES */
 .services-hero {
   padding-top: 118px;
