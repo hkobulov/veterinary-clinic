@@ -265,7 +265,31 @@
             </div>
         </div>
     </footer>
+ <!-- Modal -->
+    
+ <section class="modal js-modal">
+    <div class="form-container">
+        <div class="content-wrapper">
+            <div class="left-content__wrapper">
+                <button class="exit-button" type="button"><img src="./images/modal-exit.svg" alt="Modal exit" width="18" height="18"></button>
+                <p class="form-info">Авторизация:</p>
+                <a class="google" href="#">Войти через Google</a>
+                <a class="facebook" href="#">Войти через Facebook</a>
+            </div>
+            
+            <form class="input-question" action="https://echo.htmlacademy.ru"  method="POST" >
+                
+                <h2 class="form-heading">Задать вопрос</h2>
+                <input class="input-name" type="text" name="name" placeholder="Ваше имя" required>
+                
+                <textarea class="question-input" name="question" cols="30" rows="10" placeholder="Опишите Ваш вопрос."></textarea>
+                
+                <button class="form-button" type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+</section>
 
-    <script src="./js/main.js"></script>
+<script src="./js/main.js"></script>
 </body>
 </html>
