@@ -12,9 +12,11 @@ closeButton.addEventListener('click', function(){
 
 // FAQ
 
-var elHamburgerBtn = document.querySelector('.faq-list__item__btn');
-var elHeader = document.querySelector('.faq-list__item');
+elsqaItem = document.querySelectorAll('.faq-list__item');
+elsqaToggler = document.querySelectorAll('.faq-list__item__btn');
 
-elHamburgerBtn.addEventListener("click", function(){
-    elHeader.classList.toggle("faq--open");
+elsqaToggler.forEach(function (toggler) {
+  toggler.addEventListener('click',function () {
+      toggler.closest('.faq-list__item').classList.toggle('faq--open');
+  })
 })
