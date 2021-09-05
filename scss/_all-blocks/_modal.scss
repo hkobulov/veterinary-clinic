@@ -1,0 +1,182 @@
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.modal-open{
+    display: block;
+}
+
+.modal-open .content-wrapper{
+    animation-name: slide-down;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-duration: 0.5s;
+}
+
+@keyframes slide-down {
+    from {
+        transform: translateY(-1200px);
+    }
+    
+    to {
+        transform: translateY(0);
+    }
+}
+
+.form-container{
+    max-width: 860px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    background-image: url("../images/modal-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-wrapper{
+    padding-bottom: 137px;
+    margin-right: -33px;
+    display: flex;
+    background-image: url("../img/popup.png");
+    background-repeat: no-repeat;
+    background-size: 850px;
+    background-position: center;
+}
+
+.left-content__wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.exit-button {
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    top: 21px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.form-info{
+    width: 133px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #333333;
+    margin-left: 71px;
+    margin-top: 109px;
+}
+
+.input-question{
+    display: flex;
+    flex-direction: column;
+    margin-left: 137px;
+}
+
+.input-name{
+    width: 350px;
+}
+
+.question-input{
+    width: 350px;
+    padding-left: 22px;
+    padding-top: 17px;
+    border: none;
+    resize: vertical;
+}
+
+.google{
+    position: relative;
+    width: 250px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+    background-color: #ffffff;
+    text-decoration: none;
+    padding: 15px 36px 15px 68px;
+    margin-bottom: 21px;
+    margin-left: 70px;
+}
+
+.google::before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 36px;
+    top: 15px;
+    width: 20px;
+    height: 20px;
+    background-image: url("../img/form-google.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.facebook{
+    position: relative;
+    width: 250px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+    background-color: #ffffff;
+    text-decoration: none;
+    margin-left: 70px;
+    padding: 15px 35px 15px 56px;
+}
+
+.facebook::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 22px;
+    top: 15px;
+    background-image: url("../img/form-fasebook.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.form-heading{
+    width: 358px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 54px;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 25px;
+    padding-top: 119px;
+}
+
+.input-name{
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 22px;
+    margin-bottom: 21px;
+    border: none;
+}
+
+.form-button{
+    width: 193px;
+    margin-top: 27px;
+    padding: 15px 67px 15px 55px;
+    background-color: #000000;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}

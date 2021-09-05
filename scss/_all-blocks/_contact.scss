@@ -1,0 +1,115 @@
+.contact {
+    padding: 50px 0;
+}
+
+
+.contact-mega-area {
+    display: flex;
+    align-items: center;
+    padding-left: 130px;
+    
+    &::after {
+        content: "";
+        width: 487px;
+        height: 548px;
+        display: block;
+        margin-left: 55px;
+        background-image: url("../../images/contact-koppak.png");
+        background-repeat: no-repeat;
+    }
+}
+
+// COntact info
+
+.contact-info {
+    max-width: 450px;
+    margin-bottom: 100px;
+}
+
+.contact-info__heading {
+    margin-bottom: 27px;
+    font-size: 70px;
+    color: $black;
+}
+
+// Contact date
+
+.contact-date {
+    display: flex;
+}
+
+.contact-date .header-top__address {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 115px;
+    max-width: 150px;
+
+    &::before {
+        content: "";
+        display: block;
+        width: 73px;
+        height: 73px;
+        margin: 0;
+        margin-bottom: 30px;
+        background-image: url("../images/contact-location.svg");
+        background-position: center;
+    }
+}
+
+.contact-date .header-top__list-time {
+    flex-direction: column;
+    margin-right: 115px;
+
+    &::before {
+        content: "";
+        display: block;
+        width: 76px;
+        height: 72px;
+        margin-bottom: 27px;
+        background-image: url("../images/contact-calendar.svg");
+        background-position: center;
+    }
+}
+
+.contact-date .header-top__item-time {
+    margin: 0;
+
+    &::before {
+        content: none;
+    }
+}
+
+.contact-date .header-top__item-time:nth-child(1) {
+    margin-bottom: 12px;
+}
+
+.contact-date .header-top__time::before {
+    content: none;
+}
+
+.contact-date .header-top__list-tel {
+    flex-direction: column;
+
+    &::before {
+        content: "";
+        display: block;
+        width: 46px;
+        height: 73px;
+        margin-bottom: 27px;
+        background-image: url("../images/contact-phone.svg");
+        background-position: center;
+    }
+}
+
+.contact-date .header-top__item-tel {
+    margin: 0;
+
+    &::before {
+        content: none;
+    }
+}
+
+.contact-date .header-top__item-tel + .header-top__item-tel {
+    margin-top: 9px;
+}

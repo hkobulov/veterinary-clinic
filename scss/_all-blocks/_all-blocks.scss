@@ -1,17 +1,23 @@
 @import "container";
 @import "header";
 @import "footer";
+@import "modal";
 
 
 // Index page
 @import "work";
 @import "about";
+@import "service";
 @import "subscribe";
+@import "useful";
+@import "communication";
 
 // Contact
-
+@import "contact";
+@import "location";
 
 // FAQ
+@import "faq";
 
 
 // Services
@@ -27,3 +33,4 @@
 @import "blog-grid";
 
 // About company
+@import "about_company";

@@ -1,0 +1,68 @@
+.communication {
+    padding-top: 114px;
+    padding-bottom: 247px;
+}
+
+.communication .container {
+    display: flex;
+    padding: 0;
+}
+
+.communication-form {
+    padding: 62px 370px 74px 100px;
+    background-image: url("../images/communication-form-bg.png");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.communication-form__form {
+    position: relative;
+}
+
+.communication-form__heading {
+    margin-bottom: 14px;
+    font-size: 48px;
+    color: $white;
+}
+
+.communication-form__desc {
+    margin-bottom: 29px;
+    font-size: 16px;
+    color: $grey;
+}
+
+.communication-form__form__input {
+    display: block;
+    width: 375px;
+    margin-bottom: 14px;
+    padding: 16px 22px;
+    border: none;
+    background-color: #fff;
+}
+
+.communication-form__form__input:nth-child(3):focus + .communication-form__form__input-area{
+    display: none;
+} 
+
+.communication-form__form__input-area {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    max-width: 250px;
+    color: #DBDBDB;
+    transition: all 0.3s ease;
+}
+
+.communication-form__form__input:nth-child(3) {
+    margin-bottom: 30px;
+}
+
+.communication-form__form__btn {
+    padding: 15px 50px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #FFBD54;
+    border: none;
+    cursor: pointer;
+}
