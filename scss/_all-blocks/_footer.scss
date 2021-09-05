@@ -1,9 +1,12 @@
+.footer {
+    background-color: $dark-grey;
+}
+
 .footer .footer-top {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     padding: 54px 65px 14px 65px;
-    background-color: $light-grey;
 }
 
 .footer .header__link {
